@@ -19,6 +19,11 @@ namespace ExemploPOO
             r.DefinirMedidas(30, 30);
             System.Console.WriteLine($"Área:{r.ObterArea()}");
 
+            // Valores Invalidos
+            Retangulo r2 =new Retangulo();
+            r.DefinirMedidas(0, 0);
+            System.Console.WriteLine($"Área:{r2.ObterArea()}");
+
 
         }
     }
