@@ -64,6 +64,11 @@ namespace ExemploPOO
                 // p1.Documento="123456";
                 // p1.Apresentar();
 
+                // Aula de Polimorfismo sobrecarga de metodos 
+                // Calculadora calc = new Calculadora();
+                // System.Console.WriteLine("Resultado da primeira soma: " +calc.Somar(10,10));
+                // System.Console.WriteLine("Resultado da segunda soma: " +calc.Somar(10,10,10));
+
         }
     }
 
