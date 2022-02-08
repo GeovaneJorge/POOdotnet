@@ -69,6 +69,18 @@ namespace ExemploPOO
                 // System.Console.WriteLine("Resultado da primeira soma: " +calc.Somar(10,10));
                 // System.Console.WriteLine("Resultado da segunda soma: " +calc.Somar(10,10,10));
 
+                // //Aula de Classes Abstratas
+                // Corrente c  = new Corrente();
+                // c.Creditar(1000);
+                // c.ExibirSaldo();
+                //----------------------------------------------------
+
+                //Aula Trbalhando com a classe de baixo nivel Object 
+                Computador comp = new Computador();
+                System.Console.WriteLine(comp.ToString());
+
+
+
         }
     }
 
