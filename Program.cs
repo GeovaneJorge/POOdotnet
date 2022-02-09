@@ -76,10 +76,12 @@ namespace ExemploPOO
                 //----------------------------------------------------
 
                 //Aula Trbalhando com a classe de baixo nivel Object 
-                Computador comp = new Computador();
-                System.Console.WriteLine(comp.ToString());
-
-
+                //Computador comp = new Computador();
+                //System.Console.WriteLine(comp.ToString());
+               //--------------------------------------------------
+              //Trabalhando com Interfaces 
+              ICalculadora calc = new ICalculadora();
+               System.Console.WriteLine(calc.Somar(10, 20));
 
         }
     }
